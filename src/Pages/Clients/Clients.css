@@ -1,0 +1,57 @@
+.client-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 8rem;
+}
+.client-section .client-right {
+    margin-right: 3rem;
+
+    width: 100%;
+}
+.client-section .client-right h2{
+    font-size: 2.8rem;
+    font-family: 'Comfortaa';
+    line-height: 5rem;
+
+}
+.client-section .client-left{
+    max-width: 40rem;
+    font-family: 'Comfortaa';
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+.client-section .client-left h6{
+    font-family: 'Comfortaa';
+    font-size: 1.25rem;
+    font-weight: 800;
+margin: 2rem 0;}
+@media screen and (max-width:990px) {
+    .client-section{
+   display: block;
+        margin: 1rem;
+    }
+    .client-section .client-right {
+        margin: 1rem;
+    
+        width: 100%;
+    }
+    .client-section .client-right h2{
+        font-size: 2rem;
+        line-height: 3rem;
+    
+    }
+    .client-section .client-left{
+        margin: 1rem;
+
+        max-width: 40rem;
+        font-family: 'Comfortaa';
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    .client-section .client-left h6{
+        font-family: 'Comfortaa';
+        font-size: 1.1rem;
+        font-weight: 800;
+    margin: 1rem 0;}
+}
